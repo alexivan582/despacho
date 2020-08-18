@@ -1,0 +1,149 @@
+
+#logo-mabe{
+    width: 100px;
+    height: 100px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#usuario-mabe{
+    float:right;
+    
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.error-message{
+    color: red;
+}   
+
+.main-container{
+    min-height: 80vh;
+   
+}
+
+#login-form{
+    margin-top: 5%;
+    width: 50%
+}
+
+#singup-form{
+    margin-top: 5%;
+    width: 65%
+    
+}
+
+#upload-form{
+    margin-top: 5%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 992px){ 
+    #login-form{
+        width: 440px
+    }
+
+    #singup-form{
+        width: 500px
+    }
+}
+
+
+@media (max-width: 650px){ 
+    #login-form{
+        width: 90%
+    }
+
+    #singup-form{
+        width: 90%
+    }
+
+}
+
+ 
+.login-button{
+    width: 100%
+}
+
+
+#upload-form{
+    margin-top: 100px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#imgupload{
+    padding: 10px 0px 10px 0px;
+    background: rgba(0,0,0,0.5);
+    color: #00bdff;
+    width: 100%;
+  text-align:center;
+ font-size:1.3em; 
+}
+
+#imgupload a{
+    padding: 10px;
+    border:none;
+    color: white;
+    color: #00bdff;
+    text-decoration: none;
+    
+}
+
+/* .portada{
+    background: url(http://desarrollofrontend.com/wp-content/uploads/2014/11/img_default.png) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+
+} */
+
+.title-form{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#background-image{
+    width: 100vw;
+}
+
+
+/**/
+
+elemento {
+}
+.footer {
+    position: relative;
+    padding: 80px 70px 30px;
+}
+.footer {
+    position: relative;
+    padding: 50px 20px;
+    width: 100%;
+    min-height: 70px;
+    color: 
+#FFF;
+text-align: center;
+background-color:
+    #25282a;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Regular', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #25282a;
+}
